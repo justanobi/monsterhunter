@@ -17,6 +17,10 @@
 		BB4D937F1DF32E5E000D7FB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB4D937D1DF32E5E000D7FB4 /* LaunchScreen.storyboard */; };
 		BB4D938A1DF32E5F000D7FB4 /* monsterhunter_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4D93891DF32E5F000D7FB4 /* monsterhunter_Tests.swift */; };
 		BB4D93951DF32E5F000D7FB4 /* monsterhunter_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4D93941DF32E5F000D7FB4 /* monsterhunter_UITests.swift */; };
+		BB4D93A61DF32E69000D7FB4 /* monster.png in Resources */ = {isa = PBXBuildFile; fileRef = BB4D93A21DF32E69000D7FB4 /* monster.png */; };
+		BB4D93A71DF32E69000D7FB4 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = BB4D93A31DF32E69000D7FB4 /* background.png */; };
+		BB4D93A81DF32E69000D7FB4 /* hero.png in Resources */ = {isa = PBXBuildFile; fileRef = BB4D93A41DF32E69000D7FB4 /* hero.png */; };
+		BB4D93A91DF32E69000D7FB4 /* launcher.png in Resources */ = {isa = PBXBuildFile; fileRef = BB4D93A51DF32E69000D7FB4 /* launcher.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,10 @@
 		BB4D93901DF32E5F000D7FB4 /* monsterhunter.UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = monsterhunter.UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB4D93941DF32E5F000D7FB4 /* monsterhunter_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = monsterhunter_UITests.swift; sourceTree = "<group>"; };
 		BB4D93961DF32E5F000D7FB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB4D93A21DF32E69000D7FB4 /* monster.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monster.png; sourceTree = "<group>"; };
+		BB4D93A31DF32E69000D7FB4 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		BB4D93A41DF32E69000D7FB4 /* hero.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hero.png; sourceTree = "<group>"; };
+		BB4D93A51DF32E69000D7FB4 /* launcher.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launcher.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +111,10 @@
 		BB4D936D1DF32E5E000D7FB4 /* monsterhunter. */ = {
 			isa = PBXGroup;
 			children = (
+				BB4D93A21DF32E69000D7FB4 /* monster.png */,
+				BB4D93A31DF32E69000D7FB4 /* background.png */,
+				BB4D93A41DF32E69000D7FB4 /* hero.png */,
+				BB4D93A51DF32E69000D7FB4 /* launcher.png */,
 				BB4D936E1DF32E5E000D7FB4 /* AppDelegate.swift */,
 				BB4D93701DF32E5E000D7FB4 /* GameScene.sks */,
 				BB4D93721DF32E5E000D7FB4 /* Actions.sks */,
@@ -242,8 +254,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB4D937A1DF32E5E000D7FB4 /* Main.storyboard in Resources */,
+				BB4D93A81DF32E69000D7FB4 /* hero.png in Resources */,
 				BB4D93711DF32E5E000D7FB4 /* GameScene.sks in Resources */,
+				BB4D93A71DF32E69000D7FB4 /* background.png in Resources */,
+				BB4D93A61DF32E69000D7FB4 /* monster.png in Resources */,
 				BB4D937C1DF32E5E000D7FB4 /* Assets.xcassets in Resources */,
+				BB4D93A91DF32E69000D7FB4 /* launcher.png in Resources */,
 				BB4D937F1DF32E5E000D7FB4 /* LaunchScreen.storyboard in Resources */,
 				BB4D93731DF32E5E000D7FB4 /* Actions.sks in Resources */,
 			);
